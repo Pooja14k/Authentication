@@ -1,0 +1,32 @@
+
+div{
+    padding: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+p{
+    font-size: 1.2em;
+    margin-top: 0;
+    display: none;
+}
+p.Valid{
+    color: green;
+}
+p.Invalid{
+    color: red;
+}
